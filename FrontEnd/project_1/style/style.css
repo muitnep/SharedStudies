@@ -1,0 +1,95 @@
+/* Reset */
+
+body,
+p,
+ul,
+li,
+h1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* General Settings */
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #C4C5C6;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #C4C5C6;
+}
+
+#nav-container {
+    margin-left: 0px;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+li {
+    font-size: 18px;
+}
+
+li a:hover {
+    color: #333333;
+    transition: 0.5s;
+}
+
+.highlighted-menu {
+    color: #333333;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.menu-title {
+    color: #333333;
+}
+
+#logos-container {
+    margin-right: 0px;
+}
+
+.svg-inline--fa {
+    width: 25px;
+    margin-left: 20px;
+    color: #C4C5C6;
+
+}
+
+.fa-github-alt:hover {
+    color: #181717;
+    transition: 0.5s;
+}
+
+.fa-linkedin-in:hover {
+    color: #0077B5;
+    transition: 0.5s;
+}
+
+.fa-instagram:hover {
+    color: #E4405F;
+    transition: 0.5s;
+}
